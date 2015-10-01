@@ -1,0 +1,7 @@
+<nav id="menu" class="collapsed">
+	<a class="menuItem" href="">Page One</a>
+	<a class="menuItem" href="">Page Two</a>
+	<a class="menuItem" href="">Page Three</a>
+	<a class="menuItem" href="">Page Four</a>
+	<a class="menuItem" href="">Page Five</a>
+</nav>

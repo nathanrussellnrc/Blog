@@ -1,0 +1,4 @@
+<svg class="button accordion">
+	<circle cx="50%" cy="50%" fill="none" r="35%" stroke="#ffffff" stroke-width="10%"/>
+	<circle class="innerCircle" cx="50%" cy="50%" fill="#ffffff" r="25%"/>
+</svg>

@@ -1,0 +1,6 @@
+<link href="CSS/body.css" rel="stylesheet" type="text/css"></link>
+<script type="text/javascript" src="JS/jquery-2.1.4.js"></script>
+<link href="CSS/menu.css" rel="stylesheet" type="text/css"></link>
+<link href="CSS/post.css" rel="stylesheet" type="text/css"></link>
+<script type="text/javascript" src="JS/accordionMenu.js"></script>
+<script type="text/javascript" src="JS/accordionPost.js"></script>

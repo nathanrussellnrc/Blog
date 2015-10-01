@@ -1,0 +1,5 @@
+$(document).ready(function() {
+	$(".headerItem").click(function() {
+		menuModel($(this));
+	});
+});

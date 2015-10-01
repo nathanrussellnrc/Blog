@@ -1,0 +1,17 @@
+<div class="post">
+	<div class="postTitle accordion">
+		<h1>
+			<?php
+				echo $row["ID"];
+				echo ": ";
+				echo $row["Title"];
+			?>
+		</h1>
+		<?php include "../includes/accordionButtonPost.html"?>
+	</div>
+	<div class="postBody">
+		<?php
+			echo $row["Body"];
+		?>
+	</div>
+</div>

@@ -1,0 +1,22 @@
+form .postTitle {
+	cursor:auto;
+}
+
+form .postBody {
+	clear:left;
+	overflow:auto;
+}
+
+.formInputTitle {
+	background-color:#101020;
+	border:1px solid #ffffff;
+	color:#ffffff;
+	height:1.25em;
+}
+
+.formInputBody {
+	background-color:#b8b8f0;
+	border:1px solid #101020;
+	height:7em;
+	width:100%;
+}

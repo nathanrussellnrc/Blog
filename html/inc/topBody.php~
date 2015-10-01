@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<?php
+			echo "<title>".$title."</title>";
+			foreach ($array as $path) {
+				include $path;
+			}
+		?>
+	</head>
+	<body>
+		<div id="header">
+			<div class="headerItem">
+				<span>Menu</span>
+			</div>
+		</div>
+		<?php include "../includes/menu.html";?>
+		<div id="feed">

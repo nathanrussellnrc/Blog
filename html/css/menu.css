@@ -1,0 +1,37 @@
+.light {
+	background-color:rgba(240, 48, 48, 1);
+}
+
+#menu {
+	background-color:rgba(184, 184, 240, 0.95);
+	box-shadow:0 0 2em;
+	display:flex;
+	flex-flow:column nowrap;
+	justify-content:flex-start;
+	left:0;
+	list-style-type:none;
+	overflow-y:scroll;
+	position:fixed;
+	top:4em;
+	transition-duration:0.5s;
+	transition-property:max-height;
+	transition-timing-function:linear;
+	max-height:calc(100% - 4em);
+	max-width:384px;
+	width: 100%;
+	z-index:0;
+}
+
+.menuItem {
+	color:#202030;
+	font-size:1.5em;
+	font-weight:bold;
+	padding:0.975em;
+	text-align:center;
+	text-decoration:none;
+}
+
+.menuItem:hover {
+	background-color:rgba(216, 216, 240, 1);
+	opacity:1;
+}

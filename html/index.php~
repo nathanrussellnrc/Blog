@@ -1,0 +1,7 @@
+<?php
+	$title="Home";
+	$array=array("inc/headBody.html", "../includes/headMenu.html", "../includes/headPost.html");
+	include "inc/topBody.php";
+	include "inc/feed.php";
+	include "inc/bottomBody.html";
+?>

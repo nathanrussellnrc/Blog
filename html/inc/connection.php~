@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<link href="CSS/layeredPrecision.css" rel="stylesheet" type="text/css"></link>
+		<link href="CSS/menuView.css" rel="stylesheet" type="text/css"></link>
+		<link href="CSS/postView.css" rel="stylesheet" type="text/css"></link>
+		<script type="text/javascript" src="JavaScript/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="JavaScript/menuControl.js"></script>
+		<script type="text/javascript" src="JavaScript/menuModel.js"></script>
+		<script type="text/javascript" src="JavaScript/postControl.js"></script>
+		<script type="text/javascript" src="JavaScript/postModel.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="headerItem">
+				<span>Menu</span>
+			</div>
+		</div>
+		<nav id="menu" class="collapsed">
+			<a class="menuItem" href="">Page One</a>
+			<a class="menuItem" href="">Page Two</a>
+			<a class="menuItem" href="">Page Three</a>
+			<a class="menuItem" href="">Page Four</a>
+			<a class="menuItem" href="">Page Five
+			</a>
+		</nav>
+		<div id="feed">

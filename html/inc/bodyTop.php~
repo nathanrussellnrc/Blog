@@ -1,0 +1,14 @@
+<html>
+	<head>
+			<?php include $head;?>
+	</head>
+	<body>
+		<div id="header">
+			<div class="headerItem">
+				<span>Menu</span>
+			</div>
+		</div>
+		<nav id="menu" class="collapsed">
+			<?php include "../includes/menu.html";?>
+		</nav>
+		<div id="feed">
