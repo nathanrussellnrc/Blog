@@ -5,7 +5,6 @@
 	include "inc/redirect.php";
 	if (isset($_GET["title"])) {
 		include "../connections/connect.php";
-		echo $_GET["title"];
 		$connection->query("INSERT INTO posts (title, body) VALUES ('".$_GET["title"]."', '".$_GET["body"]."')");
 		include "inc/disconnect.php";
 	}
