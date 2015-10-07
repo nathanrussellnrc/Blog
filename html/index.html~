@@ -1,8 +1,0 @@
-<?php
-	include "../includes/body1.html";
-	include "../includes/post1.html";
-	include "../includes/postButtonAccordion.html";
-	include "../includes/post2.html";
-	include "../includes/post3.html";
-	include "../includes/body2.html";
-?>
