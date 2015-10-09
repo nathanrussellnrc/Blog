@@ -2,16 +2,16 @@
 
 @section ("id")
 	{{$row->id}}
-@stop
+@endsection
 
 @section ("title")
 	{{$row->title}}
-@stop
+@endsection
 
 @section ("articleButton")
 	@include ("view.articleButtonAccordion")
-@stop
+@endsection
 
 @section ("body")
 	{{$row->body}}
-@stop
+@endsection
