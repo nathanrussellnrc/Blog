@@ -1,13 +1,13 @@
 <div class="article">
 	<div class="articleTitle accordion">
 		<h1>
-			@yield "id"
+			@yield ("id")
 			: 
-			@yield "title"
+			@yield ("title")
 		</h1>
-		@yield "articleButton"
+		@yield ("articleButton")
 	</div>
 	<div class="articleBody">
-		@yield "body"
+		@yield ("body")
 	</div>
 </div>

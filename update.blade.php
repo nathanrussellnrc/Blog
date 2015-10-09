@@ -1,17 +1,17 @@
-@extends "article"
+@extends ("article")
 
-@section "id"
+@section ("id")
 	{{$row->id}}
 @stop
 
-@section "title"
+@section ("title")
 	{{$row->title}}
 @stop
 
-@section "articleButton"
-	@include "articleButtonAccordion"
+@section ("articleButton")
+	@include ("view.articleButtonAccordion")
 @stop
 
-@section "body"
+@section ("body")
 	{{$row->body}}
 @stop

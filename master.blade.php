@@ -1,13 +1,6 @@
 <html>
 	<head>
-		{{ HTML::style('css/master.css'); }}
-		{{ HTML::style('css/menu.css'); }}
-		{{ HTML::script('js/accordionMenu.js'); }}
-		{{ HTML::style('css/post.css'); }}
-		{{ HTML::script('js/accordionPost.js'); }}
-		{{ HTML::style('css/postForm.css'); }}
-		{{ HTML::script('js/submitPostForm.js'); }}
-		@yield "metadata"
+		@yield ("metadata")
 	</head>
 	<body>
 		<div id="header">
@@ -20,8 +13,7 @@
 			<a class="menuItem" href="sendPost">Send Post</a>
 		</div>
 		<div id="feed">
-			@yield "content"
-			@include "view.loginStatusBar"
+			@yield ("content")
 		</div>
 	</body>
 </html>
